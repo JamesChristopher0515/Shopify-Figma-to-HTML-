@@ -1,0 +1,3979 @@
+.bodyBack {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*header*/
+
+.header {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+/* upperSection of header*/
+
+.header .upperSection {
+    width: 100%;
+    height: 42px;
+    background-color: #62144B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header .upperSection .text {
+    color: #FCDEDB;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header .upperSection .headerBtn {
+    display: inline-flex;
+    padding: 4px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 56px;
+    background-color: #62144B;
+    outline: none;
+    border: none;
+}
+
+.header .upperSection .headerBtn a {
+    color: #FCDEDB;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+.header .upperSection .exitIcon {
+    width: 11px;
+    height: 11px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* lowerSection of header*/
+
+.header .lowerSection {
+    width: 100%;
+    height: 135px;
+    box-shadow: 0px 23px 21.3px 0px rgba(0, 0, 0, 0.07);
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 39px 22px 45px 29px;
+}
+
+.header .lowerSection .svgEverYou {
+    width: 227px;
+    height: 46px;
+    flex-shrink: 0;
+    margin-right: 37px;
+}
+
+.header .lowerSection .svgEverYou svg {
+    width: 100%;
+    height: 100%;
+}
+
+.header .lowerSection .guideLinks {
+    display: inline-flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    margin-right: 124px;
+}
+
+.header .lowerSection .guideLinks span {
+    color: #2B2B2B;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.header .lowerSection .guideLinks span:nth-child(6) {
+    color: #62144B;
+}
+
+
+.header .lowerSection .searchSection {
+    position: relative;
+    margin-right: 21px;
+}
+
+.header .lowerSection .searchInput {
+    width: 208px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #989898;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 46px;
+}
+
+.header .lowerSection .searchSection .searchIcon {
+    width: 22.937px;
+    height: 22.937px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 8.32px;
+    left: 11px;
+}
+
+.header .lowerSection .searchSection .content {
+    color: #2B2B2B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.header .lowerSection .authAndCartSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 21.25px;
+}
+
+.header .lowerSection .authAndCartSection .authPart {
+    width: 18.149px;
+    height: 24.192px;
+    flex-shrink: 0;
+}
+
+.header .lowerSection .authAndCartSection .cartPart {
+    width: 23.597px;
+    height: 24.187px;
+    flex-shrink: 0;
+}
+
+.header .lowerSection .guideLinks .hairLoss {
+    position: relative;
+}
+
+.header .lowerSection .guideLinks .hairLoss .hairLossContent {
+    width: 845px;
+    height: 372px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 15.2px rgba(0, 0, 0, 0.23);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 49px;
+    padding: 34px 51px 35px 30px;
+    position: absolute;
+    top: 44px;
+    left: -25px;
+    z-index: 90;
+    border-radius: 10px;
+    display: none;
+}
+
+.header .lowerSection .guideLinks li {
+    list-style: none;
+    color: #2B2B2B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+}
+
+.header .lowerSection .guideLinks .specialList {
+    overflow: hidden;
+    color: var(--7, #2B2B2B);
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .firstChild .specialList {
+    margin-bottom: 0px;
+}
+
+.header .lowerSection .guideLinks .spanUnderline {
+    border-bottom: 2px solid #E28681;
+}
+
+.header .lowerSection .guideLinks .brasAndBreastForms {
+    position: relative;
+}
+
+.header .lowerSection .guideLinks .brasAndBreastForms .brasAndBreastFormsContent {
+    width: 847px;
+    height: 281px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 15.2px rgba(0, 0, 0, 0.23);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 49px;
+    padding: 34px 51px 35px 30px;
+    position: absolute;
+    top: 44px;
+    left: -25px;
+    z-index: 90;
+    border-radius: 10px;
+    /* display: none; */
+}
+
+.header .lowerSection .guideLinks .brasAndBreastForms .brasAndBreastFormsContent .firstChild,
+.header .lowerSection .guideLinks .brasAndBreastForms .brasAndBreastFormsContent .secondChild {
+    width: 230px;
+}
+
+.header .lowerSection .guideLinks .brasAndBreastForms .brasAndBreastFormsContent .thirdChild {
+    width: 209px;
+}
+
+.header .lowerSection .guideLinks .recoveryProducts {
+    position: relative;
+}
+
+.header .lowerSection .guideLinks .recoveryProducts .recoveryProductsContent {
+    width: 571px;
+    height: 330px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 15.2px rgba(0, 0, 0, 0.23);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 58px;
+    padding: 31px 23px 30px 30px;
+    position: absolute;
+    top: 44px;
+    left: -25px;
+    z-index: 90;
+    border-radius: 10px;
+    display: none;
+}
+
+.header .lowerSection .guideLinks .recoveryProducts .recoveryProductsContent .firstChild {
+    width: 230px;
+    height: 269px;
+    flex-shrink: 0;
+}
+
+.header .lowerSection .guideLinks .recoveryProducts .recoveryProductsContent .secondChild {
+    width: 230px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.header .lowerSection .guideLinks .tipsAndGuides {
+    position: relative;
+}
+
+.header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent {
+    width: 613px;
+    height: 251px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 15.2px rgba(0, 0, 0, 0.23);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* gap: 58px; */
+
+    /* padding: 27px 34px 48px 48px; */
+    position: absolute;
+    top: 44px;
+    left: -25px;
+    z-index: 90;
+    border-radius: 10px;
+    display: none;
+}
+
+.header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .firstChild {
+    /* height: 176px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 27px;
+    padding-left: 48px;
+    padding-bottom: 48px;
+}
+
+.header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .secondChild {
+    width: 298px;
+    height: 251px;
+    flex-shrink: 0;
+    background-color: #FEF9F9;
+    display: flex;
+    padding: 24px 34px 107px;
+    flex-direction: column;
+    gap: 17px;
+    /* justify-content: space-between; */
+}
+
+.header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .firstChild .withFontAwesome {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .lowerSection .guideLinks .Catalog {
+    position: relative;
+}
+
+.header .lowerSection .guideLinks .Catalog .CatalogContent {
+    width: 284px;
+    height: 108px;
+    flex-shrink: 0;
+    padding: 24px 25px 29px;
+    box-shadow: 0px 4px 15.2px rgba(0, 0, 0, 0.23);
+    background-color: #fff;
+    position: absolute;
+    top: 44px;
+    left: -25px;
+    z-index: 90;
+    border-radius: 10px;
+    display: none;
+}
+
+.header .lowerSection .guideLinks .sale {
+    position: relative;
+}
+
+.header .lowerSection .guideLinks .sale .saleContent {
+    width: 290px;
+    height: 230px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 15.2px rgba(0, 0, 0, 0.23);
+    background-color: #fff;
+    position: absolute;
+    top: 44px;
+    left: -25px;
+    z-index: 90;
+    border-radius: 10px;
+    padding: 30px 30px 20px;
+    display: none;
+}
+
+.header .lowerSection .responsiveIcon {
+    position: absolute;
+    top: 49px;
+    left: 41px;
+    display: none;
+}
+
+.header .lowerSection .responsiveIcon i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.header .responsiveHeader {
+    display: none;
+}
+
+.header .responsiveSearch {
+    display: none;
+}
+
+/*main*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    flex-grow: 1;
+    width: 100%;
+}
+
+/*mainSliderSection*/
+
+.main .mainSliderSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.main .mainSliderSection .slideshow-container {
+    width: 100%;
+    height: 542px;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.main .mainSliderSection .slideshow-container .swiper-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.main .mainSliderSection .slideshow-container .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .mainSliderSection .slideshow-container .sliderGradient {
+    width: 542px;
+    height: 713px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    opacity: 0.55;
+    background: linear-gradient(179deg, rgba(0, 0, 0, 0.00) 3.15%, #000 41%);
+    position: absolute;
+    left: 86px;
+    top: -86px;
+}
+
+.main .mainSliderSection .slideshow-container .bigLetter {
+    width: 407px;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Orange Squash Demo";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 100px;
+    top: 105px;
+}
+
+.main .mainSliderSection .slideshow-container .smallLetter {
+    width: 323px;
+    height: 174px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 118.182% */
+    position: absolute;
+    left: 103px;
+    top: 263px;
+}
+
+.main .mainSliderSection .introField {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+    margin-bottom: 106px;
+}
+
+.main .mainSliderSection .introField .introTitle {
+    width: 888px;
+    color: #413B6D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Orange Squash Demo";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    margin-bottom: 16px;
+}
+
+.main .mainSliderSection .introField .introContent {
+    width: 739px;
+    height: 87px;
+    flex-shrink: 0;
+    color: #2B2B2B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+
+.main .mainSliderSection .introField .introBtns {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+.main .mainSliderSection .introField .introBtns button,
+.main .mainSliderSection .slideshow-container .introBtns button {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    color: #413B6D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Typography/CTA/Button Regular 2 */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #413B6D;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.main .mainSliderSection .introField .introBtns button:hover,
+.main .mainSliderSection .slideshow-container .introBtns button:hover {
+    color: #fff;
+    border: 1px solid #413B6D;
+    background-color: #413B6D;
+    transition: ease-in-out 0.5s;
+
+}
+
+.main .expertlyChosenSliderSection .introField .shoppingBtn:hover {
+    color: #413B6D;
+    background-color: #fff;
+    border: 1px solid #413B6D;
+    transition: ease-in-out 0.5s;
+
+}
+
+.main .collectionsSection .perfectLookImg .helpBtn:hover {
+    color: #413B6D;
+    background-color: #fff;
+    border: 1px solid #413B6D;
+    transition: ease-in-out 0.5s;
+
+}
+
+.main .mainSliderSection .slideshow-container .introBtns {
+    display: none;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.main .hairStorySection .introBtns .shopWig:hover,
+.main .findFitSection .introBtns .shopBras:hover,
+.main .hereForYouSection .introBtns .shopRecovery:hover {
+    color: #413B6D;
+    background-color: #fff;
+    border: 1px solid #413B6D;
+    transition: ease-in-out 0.5s;
+
+}
+
+.main .hairStorySection .introBtns .helpBtn:hover,
+.main .findFitSection .introBtns .helpBtn:hover,
+.main .hereForYouSection .introBtns .helpBtn:hover {
+    color: #fff;
+    border: 1px solid #413B6D;
+    background-color: #413B6D;
+    transition: ease-in-out 0.5s;
+
+}
+
+.main .endingCancerSection .coverLetter .Btns button:hover {
+    color: #413B6D;
+    background-color: #fff;
+    border: 1px solid #413B6D;
+    transition: ease-in-out 0.5s;
+
+}
+
+.main .eatHealthyGetActiveSection .newsBtn:hover {
+    color: #fff;
+    border: 1px solid #413B6D;
+    background-color: #413B6D;
+    transition: ease-in-out 0.5s;
+
+}
+
+.main .shopCatalogSection .bigImg .introField .shopNowBtn:hover {
+    color: #413B6D;
+    background-color: #fff;
+    border: 1px solid #413B6D;
+    font-size: 15px;
+    transition: ease-in-out 0.5s;
+}
+
+.main .loremSection .children .child2 .learnMoreBtn:hover,
+.main .loremSection .children .child3 .learnMoreBtn:hover {
+    color: #413B6D;
+    background-color: #fff;
+    border: 1px solid #413B6D;
+    transition: ease-in-out 0.5s;
+}
+
+.main .loremSection .children .child1 .inputGroup button:hover {
+    color: #413B6D;
+    background-color: #fff;
+    border: 1px solid #413B6D;
+    transition: ease-in-out 0.5s;
+}
+
+/* expertlyChosenSliderSection */
+
+.main .expertlyChosenSliderSection {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    gap: 109px;
+    padding-left: 129px;
+    margin-bottom: 105px;
+    position: relative;
+    max-width: 1440px;
+}
+
+.main .expertlyChosenSliderSection .introField {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .expertlyChosenSliderSection .introField p:nth-child(1) {
+    width: 308px;
+    color: #413B6D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Typography/Display */
+    font-family: "Orange Squash Demo";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 11px;
+}
+
+.main .expertlyChosenSliderSection .introField p:nth-child(2) {
+    width: 324px;
+    height: 162px;
+    flex-shrink: 0;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 11px;
+}
+
+.main .expertlyChosenSliderSection .introField .shoppingBtn {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #413B6D;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Typography/CTA/Button Regular 2 */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    outline: none;
+    border: none;
+    margin-top: 73px;
+    cursor: pointer;
+}
+
+.main .expertlyChosenSliderSection .mySwiper {
+    max-width: 1440px;
+    overflow: hidden;
+}
+
+.main .expertlyChosenSliderSection .swiper-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.main .expertlyChosenSliderSection .arrowLeftBtn {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 165px;
+    left: 542px;
+    z-index: 40;
+}
+
+.main .expertlyChosenSliderSection .arrowRightBtn {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 167px;
+    right: 10px;
+    z-index: 40;
+}
+
+/*eachPart*/
+
+.main .eachPart {
+    display: flex;
+    padding-bottom: 5.573px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15.083px;
+    flex-shrink: 0;
+    z-index: 20;
+}
+
+/* .slick-slide{
+    margin:10px;
+  } */
+
+.main .eachSliderPart {
+    display: flex;
+    flex-direction: column;
+    gap: 14.48px;
+}
+
+.main .eachSliderPart .img,
+.main .eachPart .img {
+    width: 334px;
+    height: 334.343px;
+    flex-shrink: 0;
+}
+
+.main .eachSliderPart .img img,
+.main .eachPart .img img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.main .eachSliderPart .properties,
+.main .eachPart .properties {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.main .eachSliderPart .properties .hairColorSelect,
+.main .eachPart .properties .hairColorSelect {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main .eachSliderPart .properties .hairColorSelect span,
+.main .eachPart .properties .hairColorSelect span {
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+}
+
+.main .eachSliderPart .properties .letter,
+.main .eachPart .properties .letter {
+    width: 291px;
+    color: #2B2B2B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Typography/Paragraph */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.main .eachSliderPart .properties .priceField,
+.main .eachPart .properties .priceField {
+    display: flex;
+}
+
+.main .eachSliderPart .properties .priceField .newPrice,
+.main .eachPart .properties .priceField .newPrice {
+    margin-right: 13px;
+}
+
+.main .eachSliderPart .properties .priceField .newPrice,
+.main .eachPart .properties .priceField .newPrice {
+    color: #62144B;
+}
+
+.main .eachSliderPart .properties .feedBackField,
+.main .eachPart .properties .feedBackField {
+    display: flex;
+}
+
+.main .eachSliderPart .properties .feedBackField div,
+.main .eachPart .properties .feedBackField div {
+    width: 16px;
+    height: 16px;
+}
+
+/* .collectionsSection */
+
+.main .collectionsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main .collectionsSection>p,
+.main .topFavouritesSection>p,
+.main .inYourWordsSection>p,
+.main .eatHealthyGetActiveSection>p {
+    color: #413B6D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Orange Squash Demo";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .loremSection {
+    margin-bottom: 80px;
+}
+
+.main .loremSection>.title {
+    color: #413B6D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Orange Squash Demo";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main .collectionsSection .imgCollection {
+    max-width: 1440px;
+    overflow: hidden;
+}
+
+.main .collectionsSection .imgCollection .swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    margin-bottom: 51px;
+    padding: 10px;
+}
+
+.main .collectionsSection .imgCollection .img {
+    position: relative;
+}
+
+.main .collectionsSection .imgCollection .img .overlay {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    opacity: 0.36;
+    background: #2B2B2B;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.main .collectionsSection .imgCollection .introLetter1,
+.main .collectionsSection .imgCollection .introLetter3 {
+    width: 278px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    top: 365px;
+    left: 38px;
+}
+
+.main .collectionsSection .imgCollection .introLetter2,
+.main .collectionsSection .imgCollection .introLetter4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 421px;
+}
+
+.main .collectionsSection .perfectLookImg {
+    width: 100%;
+    height: 482px;
+    background-size: cover;
+    background-position: top;
+    background-image: url(./assets/img/Rectangle111.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 59px;
+
+}
+
+.main .collectionsSection .perfectLookImg .perfectLookIntro {
+    width: 482px;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Orange Squash Demo";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    margin-top: 187px;
+}
+
+.main .collectionsSection .perfectLookImg .perfectLookHelp {
+    width: 562px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.main .collectionsSection .perfectLookImg .helpBtn {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #FFF;
+    margin-top: 45px;
+    font-size: 18px;
+    background-color: #00000000;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* topFavouritesSection */
+
+.main .topFavouritesSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 50px;
+    width: 1440px;
+}
+
+.main .resTop {
+    display: none;
+}
+
+.main .topFavouritesSection>p {
+    margin-bottom: 26px;
+}
+
+.main .topFavouritesSection .choseableLinks {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .topFavouritesSection .choseableLinks span {
+    color: #413B6D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.main .topFavouritesSection .choseableLinks span:nth-child(1) {
+    margin-right: 39px;
+}
+
+.main .topFavouritesSection .choseableLinks span:nth-child(2) {
+    margin-right: 40px;
+}
+
+.main .topFavouritesSection .choseableLinks .underline {
+    border-bottom: 1px solid #413B6D;
+    /* text-decoration: underline #413B6D; */
+}
+
+.main .topFavouritesSection .products {
+    display: none;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.main .topFavouritesSection .active {
+    display: flex;
+}
+
+/* hairStorySection, findFitSection, hereForYouSection */
+
+.main .hairStorySection,
+.main .hereForYouSection {
+    max-width: 1440px;
+    height: 600px;
+    margin: auto;
+    flex-shrink: 0;
+    padding: 50px 0 48px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FEF9F9;
+}
+
+.main .findFitSection {
+    width: 1440px;
+    height: auto;
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.main .responsiveSection {
+    display: none;
+}
+
+.main .hairStorySection .imgField,
+.main .findFitSection .imgField,
+.main .hereForYouSection .imgField {
+    width: 753px;
+    height: 502px;
+    flex-shrink: 0;
+}
+
+.main .findFitSection .imgField {
+    margin-left: 12px;
+}
+
+.main .hairStorySection .imgField,
+.main .hereForYouSection .imgField {
+    margin-right: 12px;
+}
+
+.main .findFitSection .imgField {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main .hairStorySection .imgField img,
+.main .findFitSection .imgField img,
+.main .hereForYouSection .imgField img {
+    border-radius: 4px;
+}
+
+.main .hairStorySection .introField,
+.main .findFitSection .introField,
+.main .hereForYouSection .introField {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .hairStorySection .introField .title,
+.main .findFitSection .introField .title,
+.main .hereForYouSection .introField .title {
+    color: var(--1, #413B6D);
+    font-family: "Orange Squash Demo";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 27px;
+}
+
+.main .hairStorySection .introField .content,
+.main .findFitSection .introField .content,
+.main .hereForYouSection .introField .content {
+    width: 566px;
+    margin-bottom: 51px;
+    font-family: poppins;
+}
+
+.main .hairStorySection .introBtns,
+.main .findFitSection .introBtns,
+.main .hereForYouSection .introBtns {
+    display: flex;
+    gap: 29px;
+}
+
+.main .hairStorySection .introBtns button,
+.main .findFitSection .introBtns button,
+.main .hereForYouSection .introBtns button {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main .hairStorySection .introBtns .shopWig,
+.main .findFitSection .introBtns .shopBras,
+.main .hereForYouSection .introBtns .shopRecovery {
+    background: #413B6D;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Typography/CTA/Button Regular 2 */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main .hairStorySection .introBtns .helpBtn,
+.main .findFitSection .introBtns .helpBtn,
+.main .hereForYouSection .introBtns .helpBtn {
+    border: 1px solid #413B6D;
+    color: #413B6D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Typography/CTA/Button Regular 2 */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #fff;
+}
+
+/* inYourWordsSection */
+
+.main .inYourWordsSection {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    align-self: center;
+}
+
+.main .inYourWordsSection .sliders {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.main .inYourWordsSection .sliders .swiper-wrapper {
+    display: flex;
+}
+
+.main .inYourWordsSection .sliders .eachSlider {
+    width: 855px;
+    height: 320px;
+    flex-shrink: 0;
+    background: #FEF9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main .inYourWordsSection .sliders .eachSlider .img {
+    /* width: 493px;
+    height: 358px;
+    flex-shrink: 0; */
+    margin-right: 79px;
+    position: relative;
+}
+
+.main .inYourWordsSection .sliders .eachSlider .img img {
+    border-radius: 10px;
+}
+
+.main .inYourWordsSection .sliders .eachSlider .introField {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 73px; */
+}
+
+.main .inYourWordsSection .sliders .eachSlider .introField .stars {
+    width: 111px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-bottom: 52px;
+}
+
+.main .inYourWordsSection .sliders .eachSlider .introField .letter {
+    width: 425px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #413B6D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 33px;
+    z-index: 1;
+}
+
+.main .inYourWordsSection .sliders .eachSlider .introField .name {
+    color: var(--1, #413B6D);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.main .inYourWordsSection .sliders .eachSlider .heartIcon {
+    width: 53px;
+    height: 31px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -19px;
+    left: 0px;
+    z-index: 0;
+}
+
+.main .inYourWordsSection .sliders .eachSlider .introImg {
+    width: 227px;
+    height: 58px;
+    flex-shrink: 0;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .inYourWordsSection .sliders .eachSlider .introImg {
+    position: absolute;
+    bottom: 22px;
+    right: 14px;
+}
+
+.main .inYourWordsSection .sliders .eachSlider .introImg p {
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main .inYourWordsSection .sliders .prevBtn {
+    position: absolute;
+    top: 136px;
+    right: 203px;
+    z-index: 10;
+}
+
+.main .inYourWordsSection .sliders .nextBtn {
+    position: absolute;
+    top: 136px;
+    left: 203px;
+    z-index: 10;
+}
+
+/* endingCancerSection */
+
+.main .endingCancerSection {
+    width: 100%;
+    height: 620px;
+    background: url(./assets/img/Asset1.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 48px;
+    position: relative;
+    margin-bottom: 101px;
+}
+
+.main .endingCancerSection .coverLetter {
+    width: 667px;
+    height: 497px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FCDEDB;
+    position: absolute;
+    top: 63px;
+    right: calc(100% - 49.8%);
+    padding: 64px 48px 49px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main .endingCancerSection .coverLetter .title {
+    width: 400px;
+    color: #413B6D;
+    font-family: "Orange Squash Demo";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+.main .endingCancerSection .coverLetter .content {
+    width: 539px;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main .endingCancerSection .coverLetter .Btns {
+    display: flex;
+    gap: 12px;
+}
+
+.main .endingCancerSection .coverLetter .Btns button {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border: 1px solid #413B6D;
+    background: #00000000;
+    color: #413B6D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+/* eatHealthyGetActiveSection */
+
+
+.main .eatHealthyGetActiveSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+    width: 1440px;
+}
+
+.main .eatHealthyGetActiveSection .children {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    position: relative;
+}
+
+.main .eatHealthyGetActiveSection .children .swiper-prev {
+    position: absolute;
+    top: 117px;
+    left: 494px;
+    z-index: 10;
+}
+
+.main .eatHealthyGetActiveSection .children .swiper-next {
+    position: absolute;
+    top: 117px;
+    left: 921px;
+    z-index: 10;
+}
+
+.main .eatHealthyGetActiveSection .children .swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.main .responseSection {
+    display: none;
+}
+
+.main .nonResponseSection {
+    display: flex;
+    align-self: center;
+}
+
+
+.main .eatHealthyGetActiveSection .children .child1,
+.main .eatHealthyGetActiveSection .children .child2,
+.main .eatHealthyGetActiveSection .children .child3 {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.main .eatHealthyGetActiveSection .children .child1 .img,
+.main .eatHealthyGetActiveSection .children .child2 .img,
+.main .eatHealthyGetActiveSection .children .child3 .img {
+    width: 433px;
+    height: 278px;
+    flex-shrink: 0;
+}
+
+.main .eatHealthyGetActiveSection .children .child1 .introField,
+.main .eatHealthyGetActiveSection .children .child2 .introField,
+.main .eatHealthyGetActiveSection .children .child3 .introField {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .eatHealthyGetActiveSection .children .child1 .introField .title,
+.main .eatHealthyGetActiveSection .children .child2 .introField .title,
+.main .eatHealthyGetActiveSection .children .child3 .introField .title {
+    color: #2B2B2B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.main .eatHealthyGetActiveSection .children .child2 .introField .title,
+.main .eatHealthyGetActiveSection .children .child3 .introField .title {
+    width: 406px;
+}
+
+.main .eatHealthyGetActiveSection .children .child1 .introField .content,
+.main .eatHealthyGetActiveSection .children .child2 .introField .content,
+.main .eatHealthyGetActiveSection .children .child3 .introField .content {
+    width: 433px;
+    height: 75px;
+    flex-shrink: 0;
+    color: #2B2B2B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-top: 50px;
+}
+
+.main .eatHealthyGetActiveSection .children .child2 .introField .content,
+.main .eatHealthyGetActiveSection .children .child3 .introField .content {
+    margin-top: 14px;
+}
+
+.main .eatHealthyGetActiveSection .children .child1 .introField .learnMore,
+.main .eatHealthyGetActiveSection .children .child2 .introField .learnMore,
+.main .eatHealthyGetActiveSection .children .child3 .introField .learnMore {
+    color: #413B6D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 45px;
+}
+
+.main .eatHealthyGetActiveSection .newsBtn {
+    display: flex;
+    padding: 10px 70px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 8px;
+    border: 2px solid var(--1, #413B6D);
+    outline: none;
+    border: none;
+    margin-top: 51px;
+    cursor: pointer;
+}
+
+.main .eatHealthyGetActiveSection .newsBtn {
+    color: #413B6D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 2px solid #413B6D;
+    background-color: #fff;
+}
+
+/* shopCatalogSection */
+
+.main .shopCatalogSection {
+    display: flex;
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+.main .shopCatalogSection .bigImg {
+    width: calc(100% - 441px) !important;
+    height: 484px;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.main .shopCatalogSection .bigImg img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main .shopCatalogSection .smallImg {
+    width: 441px;
+    height: 486px;
+    flex-shrink: 0;
+    background: #413B6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .shopCatalogSection .bigImg .introField {
+    position: absolute;
+    top: 218px;
+    right: calc(100% - 50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main .shopCatalogSection .bigImg .introField .title {
+    width: 482px;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Orange Squash Demo";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.main .shopCatalogSection .bigImg .introField .content {
+    width: 338px;
+    height: 87px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main .shopCatalogSection .bigImg .introField .shopNowBtn {
+    display: flex;
+    width: 131px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: #413B6D;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* loremSection */
+
+.loremSection .title,
+.loremSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .loremSection .content {
+    width: 650px;
+    color: #2B2B2B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.main .loremSection .children {
+    display: flex;
+    gap: 20px;
+}
+
+.main .loremSection .children .child1,
+.main .loremSection .children .child2,
+.main .loremSection .children .child3 {
+    width: 452px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #E28681;
+    padding: 45px 46px 57px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.main .loremSection .children .child2 {
+    background-color: #FCDEDB;
+}
+
+.main .loremSection .children .child3 {
+    background-color: #62144B;
+}
+
+.main .loremSection .children .child1 .mailBoxIcon,
+.main .loremSection .children .child2 .heartIcon,
+.main .loremSection .children .child3 .bookMark {
+    width: 59.361px;
+    height: 54.418px;
+    flex-shrink: 0;
+}
+
+.main .loremSection .children .child1 .title,
+.main .loremSection .children .child2 .title,
+.main .loremSection .children .child3 .title {
+    color: #62144B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Orange Squash Demo";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.main .loremSection .children .child2 .title {
+    color: #413B6D;
+}
+
+.main .loremSection .children .child3 .title {
+    color: #FCDEDB;
+}
+
+.main .loremSection .children .child1 .content,
+.main .loremSection .children .child2 .content,
+.main .loremSection .children .child3 .content {
+    width: 350px;
+    height: 75px;
+    flex-shrink: 0;
+    color: #2B2B2B;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.main .loremSection .children .child3 .content {
+    color: var(--3, #FCDEDB);
+}
+
+.main .loremSection .children .child1 .inputGroup {
+    width: 360px;
+    height: 53px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.main .loremSection .children .child1 .inputGroup input {
+    width: 238px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 15px 0 14px 21px;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+::placeholder {
+    color: #2B2B2B;
+}
+
+.main .loremSection .children .child1 .inputGroup button {
+    width: 122px;
+    background-color: #413B6D;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main .loremSection .children .child2 .heartIcon {
+    width: 62px;
+    height: 54px;
+    flex-shrink: 0;
+    fill: #413B6D;
+}
+
+
+.main .loremSection .children .child2 .learnMoreBtn,
+.main .loremSection .children .child3 .learnMoreBtn {
+    width: 138.5px;
+    height: 45px;
+    flex-shrink: 0;
+    border: 1px solid #413B6D;
+    background-color: #FCDEDB;
+    outline: none;
+    font-size: 16px;
+    color: #413B6D;
+    font-family: poppins;
+}
+
+.main .loremSection .children .child3 .learnMoreBtn {
+    width: 117.5px;
+    color: #fff;
+    background-color: #62144B;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.main .loremSection .children .child3 .bookMark {
+    width: 59px;
+    height: 51px;
+    flex-shrink: 0;
+}
+
+/* lastBigIcons */
+
+.lastBigIcons {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-bottom: 72px;
+}
+
+.lastBigIcons .children {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastBigIcons .firstChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastBigIcons .letter {
+    color: #413B6D;
+    font-family: "Orange Squash Demo";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 100% !important;
+    height: 348px;
+    flex-shrink: 0;
+    background: #413B6D;
+    padding: 50px 61px 24px 60px;
+}
+
+/* mainPart */
+
+.footer .mainPart {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footer .mainPart .firstPart {
+    margin-right: 169px;
+}
+
+.footer .mainPart .firstPart .explainEverYou {
+    width: 250px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 149.797%;
+    margin-top: 34.73px;
+}
+
+.footer .mainPart .firstPart .contact {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 27px;
+}
+
+.footer .mainPart .firstPart .contact p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer .mainPart .firstPart .contact .contactIcons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.footer .mainPart .secondPart,
+.footer .mainPart .thirdPart {
+    width: 243.952px;
+    margin-top: 8px;
+    margin-right: 69px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .mainPart .fourthPart {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutEverYou,
+#customerCare,
+#resources {
+    display: none;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+#aboutEverYou a,
+#customerCare a,
+#resources a {
+    text-decoration: none;
+}
+
+.footer .mainPart .upperPart .relativeSpan {
+    position: relative;
+}
+
+.footer .mainPart .upperPart .aboutEverYou .relativeSpan span:nth-child(1) {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+}
+
+.footer .mainPart .upperPart .customerCare .relativeSpan span:nth-child(1) {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+}
+
+.footer .mainPart .upperPart .resources .relativeSpan span:nth-child(1) {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+}
+
+.footer .mainPart .secondPart a,
+.footer .mainPart .thirdPart a:nth-child(1),
+.footer .mainPart .fourthPart a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.footer .mainPart .secondPart .aboutUs,
+.footer .mainPart .thirdPart .letter,
+.footer .mainPart .fourthPart .letter {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+/* subPart */
+
+.footer .subPart {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.mySlides {
+    /* display: none */
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* responsive */
+
+@media only screen and (max-width:1440px) {
+    .main .collectionsSection .perfectLookImg {
+        width: 1402px;
+    }
+
+    .main .loremSection {
+        width: 1440px;
+        display: flex;
+        align-self: center;
+    }
+
+    .main .shopCatalogSection {
+        width: 1440px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width:1430px) {
+
+    .main .expertlyChosenSliderSection .arrowRightBtn {
+        width: 35px;
+        height: 35px;
+        flex-shrink: 0;
+        cursor: pointer;
+        position: absolute;
+        top: 167px;
+        right: 205px;
+        z-index: 40;
+    }
+
+    .main .resTop {
+        display: flex !important;
+    }
+
+    .main .nonResTop {
+        display: none !important;
+    }
+
+    .main .topFavouritesSection .products .swiper-wrapper {
+        display: flex;
+    }
+
+    .header .lowerSection {
+        justify-content: center;
+    }
+
+    .header .lowerSection .guideLinks {
+        gap: 13px;
+    }
+
+    .header .lowerSection .svgEverYou {
+        margin-right: 20px;
+    }
+
+    .header .lowerSection .guideLinks span {
+        font-size: 20px;
+    }
+
+    .header .lowerSection .guideLinks {
+        margin-right: 20px;
+    }
+
+    .header .lowerSection .guideLinks .hairLoss .hairLossContent {
+        top: -120px;
+        left: 157px;
+    }
+
+    .header .lowerSection .guideLinks .hairLoss .hairLossContent {
+        padding: 26px 12px;
+    }
+
+
+    .header .lowerSection .guideLinks .recoveryProducts .recoveryProductsContent .secondChild {
+        width: auto !important;
+        height: auto !important;
+        flex-shrink: 0;
+    }
+
+    .header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .firstChild .withFontAwesome {
+        width: 100%;
+    }
+
+
+    .header .lowerSection .guideLinks .brasAndBreastForms .brasAndBreastFormsContent {
+        width: 588px;
+        padding: 20px;
+    }
+
+    .header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent {
+        width: 448px;
+        height: 251px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .secondChild {
+        width: 246px;
+        padding: 24px 34px 107px;
+    }
+
+    .main .nonResponse {
+        display: none !important;
+    }
+
+    .main .hairStorySection,
+    .main .hereForYouSection {
+        width: 100%;
+        height: 600px;
+        flex-shrink: 0;
+        padding: 50px 0 48px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        background: #FEF9F9;
+        margin-top: 117px;
+    }
+
+    .header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .firstChild {
+        padding-top: 0px;
+        padding-left: 48px;
+        padding-bottom: 0px;
+    }
+
+    .main .hereForYouSection {
+        margin-bottom: 105px;
+    }
+
+    .main .hairStorySection .imgField,
+    .main .findFitSection .imgField,
+    .main .hereForYouSection .imgField {
+        width: 753px;
+        height: 502px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .findFitSection {
+        width: 100%;
+        height: auto;
+        padding: 100px 0 100px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 67px;
+        gap: 50px;
+    }
+
+    .main .endingCancerSection {
+        background: none;
+    }
+
+    .main .endingCancerSection .coverLetter {
+        position: initial;
+    }
+
+    .main .endingCancerSection {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        align-items: center;
+    }
+
+    .main .eatHealthyGetActiveSection {
+        align-items: unset;
+    }
+
+    .main .responseSection {
+        display: flex;
+        align-self: center;
+    }
+
+    .main .nonResponseSection {
+        display: none;
+    }
+
+    .main .shopCatalogSection .bigImg {
+        width: 100%;
+        height: 484px;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .main .shopCatalogSection .bigImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .main .shopCatalogSection .smallImg {
+        display: none;
+    }
+
+    .main .shopCatalogSection .bigImg .introField {
+        left: 7%;
+    }
+
+    .main .loremSection .children {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        /* margin: 20px; */
+    }
+
+    .main .loremSection .children .child1,
+    .main .loremSection .children .child2,
+    .main .loremSection .children .child3 {
+        width: 100%;
+    }
+
+    .lastBigIcons {
+        display: none;
+    }
+
+    .footer .mainPart .firstPart {
+        margin-right: 52px;
+    }
+
+    .footer .mainPart .secondPart {
+        margin-right: -66px;
+    }
+
+    .footer .mainPart .thirdPart {
+        margin-right: -37px;
+    }
+
+    .header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .secondChild {
+        width: 100%;
+        padding: 10px 20px 0px;
+    }
+}
+
+@media only screen and (max-width:1314px) {
+    .main .loremSection .children {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:1278px) {
+    /* .main .mainSliderSection .slideshow-container .sliderGradient {
+        left: 162px;
+        top: -86px;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .bigLetter {
+        left: 163px;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .smallLetter {
+        left: 161px;
+    } */
+
+    .dotClass {
+        left: 146px;
+    }
+}
+
+@media only screen and (max-width: 1228px) {
+    .main .shopCatalogSection .bigImg .introField {
+        left: 11%;
+    }
+
+    .main .expertlyChosenSliderSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .expertlyChosenSliderSection .introField {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 89px;
+    }
+
+    .main .expertlyChosenSliderSection .arrowLeftBtn {
+        top: 593px;
+        left: 587px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection .arrowRightBtn {
+        top: 593px;
+        right: 483px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection .introField {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 89px;
+    }
+
+    .main .expertlyChosenSliderSection .introField p:nth-child(2) {
+        width: 622px;
+        height: 162px;
+        text-align: center;
+        padding-right: 37px;
+    }
+
+    .main .expertlyChosenSliderSection .introField p:nth-child(1) {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .expertlyChosenSliderSection .introField .shoppingBtn {
+        margin-top: 15px;
+        margin-right: 36px;
+    }
+}
+
+@media only screen and (max-width:1209px) {}
+
+@media only screen and (max-width: 1136px) {
+
+    .main .loremSection .children {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:1174px) {
+    /* .main .mainSliderSection .slideshow-container .sliderGradient {
+        left: 232px;
+        top: -86px;
+    } */
+    /* 
+    .main .mainSliderSection .slideshow-container .bigLetter {
+        left: 233px;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .smallLetter {
+        left: 231px;
+    } */
+
+    .dotClass {
+        left: 226px;
+    }
+
+    .main .loremSection .children {
+        width: 64%;
+    }
+}
+
+@media only screen and (max-width:1049px) {
+    .footer {
+        padding: 30px 0 0 0;
+    }
+
+    .header .lowerSection .guideLinks {
+        display: none;
+    }
+
+    .header .lowerSection .responsiveIcon {
+        display: flex;
+    }
+
+    .responsiveGuideLink {
+        display: flex;
+    }
+
+    .nonResponsiveGuideLink {
+        display: none;
+    }
+
+    .header .lowerSection .responsiveGuideLink {
+        position: fixed;
+        top: 162px;
+        left: 0px;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        box-shadow: 0px 4px 15.2px rgba(0, 0, 0, 0.23);
+        border-radius: 0px;
+        z-index: 100;
+        padding: 20px 21px;
+        overflow: auto;
+    }
+
+    .header .lowerSection .responsiveGuideLink div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 0px;
+        /* height: 100%; */
+        overflow: unset;
+    }
+
+
+    .header .lowerSection .guideLinks span {
+        margin-right: 22px;
+    }
+
+    .header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .firstChild .withFontAwesome i {
+        display: none;
+    }
+
+    .header .lowerSection .responsiveGuideLink .upperDiv {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid #C3C3C3;
+    }
+
+
+    .header .lowerSection .responsiveGuideLink .hairLoss .hairLossContent,
+    .header .lowerSection .responsiveGuideLink .brasAndBreastForms .brasAndBreastFormsContent,
+    .header .lowerSection .responsiveGuideLink .recoveryProducts .recoveryProductsContent,
+    .header .lowerSection .responsiveGuideLink .tipsAndGuides .tipsAndGuidesContent,
+    .header .lowerSection .responsiveGuideLink .Catalog .CatalogContent,
+    .header .lowerSection .responsiveGuideLink .sale .saleContent {
+        box-shadow: unset;
+        display: none;
+        justify-content: space-between;
+        position: unset;
+        overflow: auto;
+        height: auto;
+
+    }
+
+    .absoluteSpan {
+        position: absolute;
+        top: -10px;
+    }
+
+    #hairSpan,
+    #brasAndBreastSpan,
+    #recoveryProductsSpan,
+    #tipsAndGuidesSpan,
+    #catalogSpan,
+    #saleSpan {
+        position: absolute;
+    }
+
+    .header .responsiveHeader {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0px;
+    }
+
+    .header .nonRes {
+        display: none !important;
+    }
+
+    .header .responsiveSearch {
+        display: flex;
+    }
+
+    .header .lowerSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    .header .lowerSection .authAndCartSection {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        gap: 21.25px;
+    }
+
+    .header .lowerSection .searchInput {
+        width: 100%;
+        height: 35px;
+        flex-shrink: 0;
+    }
+
+    .header .lowerSection {
+        padding: 21px 21px 13px 21px;
+    }
+
+    .header .lowerSection .searchSection {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .header .lowerSection .responsiveIcon {
+        position: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .header .lowerSection .guideLinks .hairLoss .hairLossContent {
+        height: auto;
+    }
+
+    .header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .firstChild {
+        padding-top: 20px;
+        padding-left: 11px;
+        padding-bottom: 0px;
+    }
+
+    .header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .firstChild {
+        gap: 20px;
+    }
+
+    .header .lowerSection .guideLinks .tipsAndGuides .tipsAndGuidesContent .secondChild {
+        height: auto;
+        background-color: unset;
+        padding: 10px 20px 0px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+
+    .header .lowerSection .svgEverYou {
+        margin-right: 123px;
+    }
+
+    .main .expertlyChosenSliderSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .expertlyChosenSliderSection .introField {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-right: 216px; */
+    }
+
+    .main .expertlyChosenSliderSection .introField p:nth-child(1) {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .main .expertlyChosenSliderSection .arrowLeftBtn {
+        top: 626px;
+        left: 414px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection .arrowRightBtn {
+        top: 626px;
+        right: 400px;
+        z-index: 40;
+    } */
+
+    .main .expertlyChosenSliderSection .introField .shoppingBtn {
+        /* align-self: normal !important; */
+    }
+
+    .main .expertlyChosenSliderSection .introField p:nth-child(2) {
+        width: 622px;
+        height: 162px;
+        text-align: center;
+        padding-right: 37px;
+    }
+
+    .main .expertlyChosenSliderSection .introField .shoppingBtn {
+        padding: 10px 50px;
+        margin-top: -34px;
+        margin-right: 36px;
+    }
+
+    /* .main .expertlyChosenSliderSection .arrowRightBtn {
+        top: 527px;
+        right: 474px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection .arrowLeftBtn {
+        top: 527px;
+        right: 466px;
+        z-index: 40;
+    } */
+
+    .main .inYourWordsSection .sliders .nextBtn {
+        position: absolute;
+        top: 136px;
+        left: 350px;
+    }
+
+    .main .inYourWordsSection .sliders .prevBtn {
+        position: absolute;
+        top: 136px;
+        right: 366px;
+    }
+
+    .main .inYourWordsSection .sliders .eachSlider .img {
+        margin-right: 34px;
+    }
+
+    .main .inYourWordsSection .sliders .eachSlider .introField .letter {
+        width: 236px;
+        height: 94px;
+    }
+
+    .main .inYourWordsSection .sliders .eachSlider .introField .stars {
+        margin-bottom: 22px;
+    }
+
+    .main .inYourWordsSection .sliders .eachSlider .heartIcon {
+        width: 53px;
+        height: 31px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 89px;
+        left: 732px;
+        z-index: 0;
+    }
+
+
+}
+
+@media only screen and (max-width:1002px) {
+    /* .main .mainSliderSection .slideshow-container .sliderGradient {
+        left: 312px;
+        top: -86px;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .bigLetter {
+        left: 313px;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .smallLetter {
+        left: 311px;
+    } */
+
+    .dotClass {
+        left: 306px;
+    }
+
+    .main .expertlyChosenSliderSection .introField p:nth-child(2) {
+        width: 522px;
+    }
+
+    .main .expertlyChosenSliderSection .introField .shoppingBtn {
+        margin-top: 15px;
+    }
+
+    /* .main .expertlyChosenSliderSection .arrowLeftBtn {
+        top: 596px;
+        left: 499px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection .arrowRightBtn {
+        top: 596px;
+        right: 567px;
+        z-index: 40;
+    } */
+}
+
+@media only screen and (max-width:948px) {
+    .main .loremSection .children {
+        width: 55%;
+    }
+
+    .footer .mainPart .secondPart .aboutUs,
+    .footer .mainPart .thirdPart .letter,
+    .footer .mainPart .fourthPart .letter {
+        font-size: 12px;
+    }
+
+    .footer .mainPart .secondPart a,
+    .footer .mainPart .thirdPart a:nth-child(1),
+    .footer .mainPart .fourthPart a {
+        font-size: 14px;
+    }
+
+    .footer .mainPart .firstPart {
+        margin-right: 37px;
+    }
+
+    .footer .mainPart .secondPart,
+    .footer .mainPart .thirdPart {
+        width: auto;
+        margin-right: 29px;
+    }
+}
+
+@media only screen and (max-width: 858px) {
+    .main .shopCatalogSection .bigImg .introField {
+        left: 27%;
+    }
+}
+
+@media only screen and (max-width:842px) {
+    /* .main .mainSliderSection .slideshow-container .sliderGradient {
+        left: 392px;
+        top: -86px;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .bigLetter {
+        left: 393px;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .smallLetter {
+        left: 391px;
+    } */
+
+    .dotClass {
+        left: 386px;
+    }
+
+
+}
+
+@media only screen and (max-width:810px) {
+    .main .loremSection .children {
+        width: 46%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .nonResFooter {
+        display: none;
+    }
+
+    .resFooter {
+        display: flex !important;
+    }
+
+    .header .lowerSection .svgEverYou {
+        margin-right: 50px;
+    }
+
+    /* .main .mainSliderSection .slideshow-container .smallLetter {
+        display: none;
+    } */
+
+    .dotClass {
+        display: none;
+    }
+
+    .main .mainSliderSection .slideshow-container .sliderGradient {
+        width: 768px;
+        height: 1154px;
+        transform: rotate(0deg);
+        position: absolute;
+        left: 0px;
+    }
+
+    /* .main .mainSliderSection .introField .introBtns button {
+        display: none;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .introBtns {
+        display: flex;
+        position: absolute;
+        top: 324px;
+        left: 400px;
+    } */
+
+    .main .mainSliderSection .slideshow-container .mySlides .introBtns button {
+        background-color: #00000000 !important;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .main .mainSliderSection .introField .introTitle {
+        width: 501px;
+    }
+
+    .main .mainSliderSection .introField .introContent {
+        width: 686px;
+    }
+
+    /* .main .expertlyChosenSliderSection .arrowLeftBtn {
+        left: 412px;
+    } */
+    .main .inYourWordsSection .sliders .eachSlider {
+        height: 511px;
+        flex-direction: column;
+    }
+
+    .main .inYourWordsSection .sliders .eachSlider .introField {
+        margin-right: 44px;
+        margin-top: 10px;
+    }
+
+    .main .inYourWordsSection .sliders .eachSlider .introField .letter {
+        margin-left: 16px;
+    }
+
+    .main .inYourWordsSection .sliders .eachSlider .introField .name {
+        margin-left: 16px;
+    }
+
+    .main .inYourWordsSection .sliders .eachSlider .heartIcon {
+        width: 53px;
+        height: 31px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 313px;
+        left: 357px;
+        z-index: 1;
+    }
+
+    .main .inYourWordsSection .sliders .prevBtn {
+        right: 570px;
+        z-index: 10;
+    }
+
+    .main .inYourWordsSection .sliders .nextBtn {
+        position: absolute;
+        top: 136px;
+        left: 535px;
+        z-index: 10;
+    }
+
+    .footer .mainPart .firstPart .logo {
+        width: 200px;
+    }
+
+    .footer .mainPart .firstPart .logo img {
+        width: 100%;
+    }
+
+    .footer .mainPart .firstPart .explainEverYou {
+        width: 200px;
+    }
+
+    .footer .mainPart .firstPart .contact {
+        width: 200px;
+    }
+
+    .footer .subPart {
+        font-size: 12px;
+    }
+
+    .footer {
+        height: 100%;
+        padding: 27px 26.5px 40px 52px;
+    }
+
+    .footer .mainPart {
+        display: flex;
+        flex-direction: column;
+        max-width: 1440px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .footer .mainPart .secondPart .aboutEverYou a,
+    .footer .mainPart .thirdPart .customerCare a,
+    .footer .mainPart .fourthPart .resources a {
+        font-size: 24px;
+    }
+
+    .footer .mainPart .secondPart .aboutEverYou {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #716C91;
+        padding-bottom: 6.5px;
+    }
+
+    .footer .mainPart .thirdPart .customerCare {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #716C91;
+        padding-bottom: 6.5px;
+    }
+
+    .footer .mainPart .fourthPart .resources {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #716C91;
+        padding-bottom: 6.5px;
+    }
+
+    .footer .mainPart .secondPart .aboutEverYou span {
+        width: 20.68px;
+        height: 20.68px;
+        flex-shrink: 0;
+    }
+
+    .footer .mainPart .thirdPart .customerCare span {
+        width: 20.68px;
+        height: 20.68px;
+        flex-shrink: 0;
+    }
+
+    .footer .mainPart .fourthPart .resources span {
+        width: 20.68px;
+        height: 20.68px;
+        flex-shrink: 0;
+    }
+
+    .footer .contact .contactIcons {
+        display: flex;
+        gap: 12px;
+        margin-top: 15.5px;
+    }
+
+    .footer .mainPart .firstPart {
+        margin-top: 59px;
+    }
+
+    .footer .firstPart .logo {
+        width: 308px;
+        height: 49.687px;
+        flex-shrink: 0;
+    }
+
+    .footer .firstPart .logo img {
+        width: 100%;
+    }
+
+    .footer .firstPart .explainEverYou {
+        width: 366px !important;
+        font-size: 13px !important;
+    }
+
+    .footer .mainPart .fourthPart {
+        width: auto;
+        margin-right: 29px;
+    }
+
+    .footer .mainPart .secondPart .aboutUs,
+    .footer .mainPart .thirdPart .letter,
+    .footer .mainPart .fourthPart .letter {
+        font-size: 16px;
+    }
+
+    .footer .mainPart .secondPart a,
+    .footer .mainPart .thirdPart a:nth-child(1),
+    .footer .mainPart .fourthPart a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+    .main .hairStorySection .imgField img,
+    .main .findFitSection .imgField img,
+    .main .hereForYouSection .imgField img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main .hairStorySection .imgField,
+    .main .findFitSection .imgField,
+    .main .hereForYouSection .imgField {
+        width: 555px;
+        height: 419px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .endingCancerSection .coverLetter {
+        width: 518px;
+        height: 438px;
+        padding: 50px;
+        gap: 25px;
+    }
+
+    .main .endingCancerSection .coverLetter .title {
+        font-size: 35px;
+    }
+
+    .main .endingCancerSection .coverLetter .title {
+        width: 400px;
+    }
+
+    .main .endingCancerSection .coverLetter .content {
+        width: 420px;
+    }
+
+    .main .eatHealthyGetActiveSection>p {
+        font-size: 45px;
+    }
+
+    .main .shopCatalogSection .bigImg .introField {
+        left: 27%;
+    }
+
+}
+
+@media only screen and (max-width:690px) {
+    /* .header .lowerSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    .header .lowerSection .authAndCartSection {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        gap: 21.25px;
+    }
+
+    .header .lowerSection .searchInput {
+        width: 100%;
+        height: 35px;
+        flex-shrink: 0;
+    }
+
+    .header .lowerSection .searchSection {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .header .lowerSection .responsiveIcon {
+        position: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .bigLetter {
+        left: 493px;
+    } */
+
+    /* .main .mainSliderSection .slideshow-container .introBtns {
+        display: flex;
+        position: absolute;
+        top: 324px;
+        left: 500px;
+    } */
+
+    .main .mainSliderSection .introField .introContent {
+        width: 486px;
+    }
+
+    .main .loremSection .children {
+        width: 36%;
+    }
+}
+
+@media only screen and (max-width: 674px) {
+    .main .shopCatalogSection .bigImg .introField {
+        left: 31%;
+    }
+}
+
+@media only screen and (max-width:590px) {
+
+    .main .hairStorySection .imgField,
+    .main .findFitSection .imgField,
+    .main .hereForYouSection .imgField {
+        width: 400px;
+        height: 309px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .hairStorySection .introField .title,
+    .main .findFitSection .introField .title,
+    .main .hereForYouSection .introField .title {
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+    }
+
+    .main .hairStorySection .introField .content,
+    .main .findFitSection .introField .content,
+    .main .hereForYouSection .introField .content {
+        width: 383px;
+    }
+
+    .header .lowerSection .svgEverYou {
+        margin-right: 0px;
+        margin-left: 32px;
+    }
+
+    .header .lowerSection .svgEverYou {
+        width: 158px;
+        height: 32px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 644px) {
+    .main .loremSection>.title {
+        font-size: 38px;
+    }
+
+    .main .loremSection .content {
+        width: 442px;
+    }
+
+    .main .mainSliderSection .slideshow-container .bigLetter {
+        left: 48px;
+    }
+
+    .main .mainSliderSection .slideshow-container .smallLetter {
+        left: 49px;
+    }
+}
+
+@media only screen and (max-width:627px) {
+    .main .topFavouritesSection .choseableLinks span {
+        font-size: 18px;
+
+    }
+
+    .main .topFavouritesSection .choseableLinks span:nth-child(1) {
+        margin-right: 14px;
+    }
+
+    .main .topFavouritesSection .choseableLinks span:nth-child(2) {
+        margin-right: 14px;
+    }
+}
+
+@media only screen and (max-width: 542px) {
+    .main .loremSection .children {
+        width: 29%;
+    }
+}
+
+@media only screen and (max-width:533px) {
+
+    .main .eatHealthyGetActiveSection>p {
+        font-size: 40px;
+    }
+
+    .main .eatHealthyGetActiveSection .children .swiper-prev {
+        position: absolute;
+        top: 83px;
+        left: 543px;
+        z-index: 10;
+    }
+
+    .main .eatHealthyGetActiveSection .children .swiper-next {
+        position: absolute;
+        top: 83px;
+        left: 867px;
+        z-index: 10;
+    }
+}
+
+@media only screen and (max-width:538px) {
+    .main .endingCancerSection .coverLetter {
+        width: 418px;
+        height: 338px;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .main .endingCancerSection .coverLetter .title {
+        font-size: 30px;
+    }
+
+    .main .endingCancerSection .coverLetter .title {
+        width: 300px;
+    }
+
+    .main .endingCancerSection .coverLetter .content {
+        width: 320px;
+        font-size: 13px;
+    }
+
+    .main .endingCancerSection .coverLetter .Btns button {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .main .expertlyChosenSliderSection .arrowLeftBtn {
+        left: 552px;
+    }
+
+    .main .expertlyChosenSliderSection .arrowRightBtn {
+        right: 542px;
+    }
+}
+
+@media only screen and (max-width:495px) {
+    /* .main .mainSliderSection .slideshow-container .bigLetter {
+        left: 573px;
+    } */
+
+    .main .mainSliderSection .slideshow-container .introBtns {
+        display: flex;
+        position: absolute;
+        top: 324px;
+        left: 580px;
+    }
+
+    .main .mainSliderSection .introField .introTitle {
+        width: 401px;
+    }
+
+    .main .mainSliderSection .introField .introContent {
+        width: 346px;
+    }
+
+    .main .expertlyChosenSliderSection .introField p:nth-child(2) {
+        width: 422px;
+    }
+
+    .main .expertlyChosenSliderSection .introField .shoppingBtn {
+        margin-top: 25px;
+    }
+
+    .main .eatHealthyGetActiveSection .children .child1 .img,
+    .main .eatHealthyGetActiveSection .children .child2 .img,
+    .main .eatHealthyGetActiveSection .children .child3 .img {
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .main .eatHealthyGetActiveSection .children .child1 .introField .content,
+    .main .eatHealthyGetActiveSection .children .child2 .introField .content,
+    .main .eatHealthyGetActiveSection .children .child3 .introField .content {
+        width: 100%;
+    }
+
+    .main .eatHealthyGetActiveSection .children .child1 .img img,
+    .main .eatHealthyGetActiveSection .children .child2 .img img,
+    .main .eatHealthyGetActiveSection .children .child3 .img img {
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .main .mainSliderSection .introField .introBtns button,
+    .main .mainSliderSection .slideshow-container .introBtns button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:444px) {
+
+    .main .loremSection .children .child1 .content,
+    .main .loremSection .children .child2 .content,
+    .main .loremSection .children .child3 .content {
+        display: none;
+    }
+
+    .main .loremSection .children .child1 .mailBoxIcon,
+    .main .loremSection .children .child2 .heartIcon,
+    .main .loremSection .children .child3 .bookMark {
+        width: 54.04px;
+        height: 49.576px;
+        flex-shrink: 0;
+    }
+
+    .main .loremSection .children .child1 .title,
+    .main .loremSection .children .child2 .title,
+    .main .loremSection .children .child3 .title {
+        font-size: 32px;
+    }
+
+    .main .loremSection .children .child1 .inputGroup {
+        width: 284.54px;
+        height: 53px;
+        flex-shrink: 0;
+    }
+
+    .main .loremSection .children .child1 .inputGroup input {
+        width: 168px;
+        background-color: #fff;
+        outline: none;
+        border: none;
+        padding: 15px 0 14px 21px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .main .expertlyChosenSliderSection .introField p:nth-child(1) {
+        font-size: 57px;
+        padding-right: 37px;
+    }
+
+    .main .expertlyChosenSliderSection .arrowLeftBtn {
+        top: 579px;
+        left: 400px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection .arrowRightBtn {
+        top: 579px;
+        right: 522px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection .arrowLeftBtn {
+        top: 579px;
+        left: 394px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection {
+        margin-bottom: 45px;
+    }
+
+    .main .loremSection .children {
+        width: 23%;
+    }
+
+    .main .topFavouritesSection .choseableLinks span {
+        font-size: 15px;
+    }
+
+    .main .collectionsSection .perfectLookImg .perfectLookIntro {
+        width: 254px;
+        text-align: start;
+        margin-top: 133px;
+    }
+
+    .main .collectionsSection .perfectLookImg .perfectLookHelp {
+        width: 254px;
+        height: 55px;
+        flex-shrink: 0;
+        text-align: start;
+    }
+
+    .main .collectionsSection .perfectLookImg .helpBtn {
+        margin-right: 71px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+
+    .main .topFavouritesSection>p {
+        margin-left: 58px;
+    }
+
+    .header .lowerSection .svgEverYou {
+        width: 158px;
+        height: 32px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .lowerSection .svgEverYou {
+        margin-right: 0px;
+        margin-left: 32px;
+    }
+
+    .header .lowerSection .authAndCartSection {
+        width: 66.26px;
+        height: 28px;
+        flex-shrink: 0;
+    }
+
+    .header .lowerSection .responsiveIcon i {
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    .header .upperSection .text {
+        font-size: 13px;
+    }
+
+    .header .upperSection .headerBtn a {
+        font-size: 13px;
+    }
+
+    .header .upperSection .exitIcon {
+        width: 10.5px;
+        height: 10px;
+        flex-shrink: 0;
+    }
+
+    .header .upperSection .exitIcon svg {
+        fill: stroke #fff;
+    }
+
+    .main .mainSliderSection .slideshow-container {
+        width: 375px;
+        height: 613px;
+        flex-shrink: 0;
+        overflow: hidden;
+    }
+
+    .main .mainSliderSection .slideshow-container .mySlides {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main .mainSliderSection .slideshow-container img {
+        width: 100%;
+        object-position: center;
+        object-fit: cover;
+        flex-shrink: 0;
+        height: 100%;
+    }
+
+    .main .mainSliderSection .slideshow-container .sliderGradient {
+        height: 1900px;
+        /* left: -100px; */
+    }
+
+    .main .mainSliderSection .slideshow-container .bigLetter {
+        left: 20px;
+        top: 321px;
+        width: 304px;
+        font-size: 48px;
+    }
+
+    .main .mainSliderSection .slideshow-container .introBtns {
+        left: 20px;
+        top: 445px;
+    }
+
+    .main .mainSliderSection .slideshow-container .introBtns button:nth-child(2) {
+        width: 249px;
+    }
+
+    .main .mainSliderSection .introField .introTitle {
+        width: 317px;
+        font-size: 38px;
+        text-align: start;
+        line-height: 52px;
+        margin-right: 23px;
+        margin-top: 33px;
+    }
+
+    .main .mainSliderSection .introField .introContent {
+        width: 324px;
+        height: 162px;
+        flex-shrink: 0;
+    }
+
+    .main .mainSliderSection .introField .introContent {
+        text-align: start;
+        margin-right: 14px;
+    }
+
+    .main .expertlyChosenSliderSection .introField p:nth-child(2) {
+        display: none;
+    }
+
+    .main .expertlyChosenSliderSection .introField p:nth-child(1) {
+        font-size: 38px;
+    }
+
+    .main .expertlyChosenSliderSection .introField .shoppingBtn {
+        display: none;
+    }
+
+    .main .expertlyChosenSliderSection {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 129px;
+        margin-bottom: 0px;
+    }
+
+    .main .mainSliderSection .introField {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .main .expertlyChosenSliderSection .eachPart .img {
+        width: 277px;
+        height: 277.022px;
+        flex-shrink: 0;
+    }
+
+    .main .eachPart .properties .hairColorSelect span {
+        width: 35px;
+        height: 35px;
+    }
+
+    .main .eachPart .properties .hairColorSelect span img,
+    .main .eachPart .properties .hairColorSelect span svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main .eachPart .properties .hairColorSelect span:nth-child(1),
+    .main .eachPart .properties .hairColorSelect span:nth-child(2),
+    .main .eachPart .properties .hairColorSelect span:nth-child(3) {
+        display: none;
+    }
+
+    .main .expertlyChosenSliderSection .arrowLeftBtn {
+        top: 224px;
+        left: 485px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection .arrowRightBtn {
+        top: 224px;
+        right: 615px;
+        z-index: 40;
+    }
+
+    .main .expertlyChosenSliderSection .introField p:nth-child(1) {
+        font-size: 38px;
+        padding-right: 0px;
+        margin-right: 240px;
+    }
+
+    .main .collectionsSection>p,
+    .main .topFavouritesSection>p,
+    .main .inYourWordsSection>p,
+    .main .eatHealthyGetActiveSection>p {
+        font-size: 38px;
+        margin-bottom: 19px;
+        margin-top: 30px;
+        margin-right: 158px;
+
+    }
+
+    .main .collectionsSection .imgCollection .img img {
+        width: 259px;
+        height: 385px;
+        flex-shrink: 0;
+    }
+
+    .main .collectionsSection .imgCollection .introLetter1,
+    .main .collectionsSection .imgCollection .introLetter3 {
+        width: 278px;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        position: absolute;
+        top: 273px;
+        left: -10px;
+    }
+
+    .main .collectionsSection .imgCollection .introLetter2,
+    .main .collectionsSection .imgCollection .introLetter4 {
+        top: 303px;
+    }
+
+    .main .collectionsSection .imgCollection .img .overlay {
+        width: 100%;
+    }
+
+    .main .collectionsSection .imgCollection .swiper-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .main .collectionsSection .perfectLookImg {
+        width: 335px;
+        height: 482px;
+        flex-shrink: 0;
+    }
+
+    .main .collectionsSection .perfectLookImg {
+        background-size: cover;
+        background-position: 31%;
+        border-radius: 10px;
+    }
+
+    .main .collectionsSection .perfectLookImg .perfectLookIntro {
+        width: 254px;
+        text-align: start;
+        margin-top: 133px;
+    }
+
+    .main .collectionsSection .perfectLookImg .perfectLookHelp {
+        width: 254px;
+        height: 55px;
+        flex-shrink: 0;
+        text-align: start;
+    }
+
+    .main .collectionsSection .perfectLookImg .helpBtn {
+        margin-right: 71px;
+    }
+
+    .main .hairStorySection .imgField,
+    .main .findFitSection .imgField,
+    .main .hereForYouSection .imgField {
+        width: 341px;
+        height: 249px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .hairStorySection .imgField,
+    .main .hereForYouSection .imgField {
+        margin-left: 10px;
+    }
+
+    .main .hairStorySection .introField .title,
+    .main .findFitSection .introField .title,
+    .main .hereForYouSection .introField .title {
+        font-size: 38px;
+        margin-left: 20px;
+    }
+
+    .main .hairStorySection .introField .content,
+    .main .findFitSection .introField .content,
+    .main .hereForYouSection .introField .content {
+        width: 335px;
+        margin-bottom: 30px;
+    }
+
+    .main .hairStorySection .introBtns,
+    .main .findFitSection .introBtns,
+    .main .hereForYouSection .introBtns {
+        display: flex;
+        gap: 14px;
+        flex-direction: column;
+    }
+
+    .main .hairStorySection,
+    .main .hereForYouSection,
+    .main .findFitSection {
+        gap: 30px;
+    }
+
+    .main .findFitSection,
+    .main .hereForYouSection,
+    .main .findFitSection {
+        margin-top: -67px;
+    }
+
+    .main .hairStorySection .introBtns .shopWig {
+        width: 136px;
+    }
+
+    .main .hereForYouSection .introBtns .shopRecovery {
+        width: 175px;
+    }
+
+    .main .findFitSection .introBtns .shopBras {
+        width: 131px;
+    }
+
+    .main .hairStorySection .introBtns .helpBtn {
+        width: 186px;
+        font-size: 17px;
+
+    }
+
+    .main .hereForYouSection .introBtns .helpBtn {
+        width: 118px;
+        font-size: 17px;
+
+    }
+
+    .main .findFitSection .introBtns .helpBtn {
+        width: 226px;
+        font-size: 17px;
+
+    }
+
+    .main .inYourWordsSection>p {
+        margin-top: 0px;
+        margin-right: 107px;
+    }
+
+    .main .hereForYouSection {
+        margin-bottom: 0px;
+    }
+
+    .main .endingCancerSection .coverLetter {
+        width: 335px;
+        height: 497px;
+        flex-shrink: 0;
+    }
+
+    .main .endingCancerSection .coverLetter .title {
+        font-size: 38px;
+        width: 212px;
+    }
+
+    .main .endingCancerSection .coverLetter .content {
+        font-size: 16px;
+    }
+
+    .main .endingCancerSection .coverLetter .Btns button {
+        padding: 10px 30px;
+    }
+
+    .main .endingCancerSection .coverLetter .Btns {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main .eatHealthyGetActiveSection .children .child2 .introField .title,
+    .main .eatHealthyGetActiveSection .children .child3 .introField .title {
+        font-size: 20px;
+    }
+
+    .main .eatHealthyGetActiveSection .children .child1 .introField .content,
+    .main .eatHealthyGetActiveSection .children .child2 .introField .content,
+    .main .eatHealthyGetActiveSection .children .child3 .introField .content {
+        font-size: 16px;
+    }
+
+    .main .eatHealthyGetActiveSection .children .child2 .introField .title,
+    .main .eatHealthyGetActiveSection .children .child3 .introField .title {
+        width: 100%;
+    }
+
+    .main .shopCatalogSection .smallImg {
+        display: flex;
+    }
+
+    .main .shopCatalogSection {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+
+    .main .shopCatalogSection .smallImg {
+        width: 100%;
+        height: 299px;
+    }
+
+    .main .shopCatalogSection .smallImg img {
+        width: 140px;
+        height: 241px;
+        flex-shrink: 0;
+    }
+
+    .main .shopCatalogSection {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .shopCatalogSection .bigImg {
+        width: 375px;
+        height: 400px;
+    }
+
+    .main .shopCatalogSection .bigImg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main .shopCatalogSection .bigImg .introField .title {
+        width: 242px;
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "Orange Squash Demo";
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .main .shopCatalogSection .bigImg .introField {
+        left: 341px;
+        top: 116px;
+    }
+
+    .main .shopCatalogSection .bigImg .introField .content {
+        width: 250px;
+        flex-shrink: 0;
+    }
+
+    .main .shopCatalogSection .bigImg .introField .content {
+        font-size: 15px;
+    }
+
+    .main .shopCatalogSection .bigImg .introField .shopNowBtn {
+        margin-top: 13px;
+    }
+
+    .main .loremSection .children {
+        display: flex;
+        width: 335px;
+        height: 718px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 14px;
+        flex-shrink: 0;
+    }
+
+    .main .loremSection .children .child1,
+    .main .loremSection .children .child2,
+    .main .loremSection .children .child3 {
+        width: 335px;
+        height: 230px;
+        flex-shrink: 0;
+    }
+
+    .main .loremSection>.title {
+        width: 313px;
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .main .loremSection .content {
+        width: 328px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .main .loremSection .children .child3 .learnMoreBtn {
+        width: 114px;
+    }
+
+    .main .eatHealthyGetActiveSection>p {
+        width: 313px;
+        font-size: 38px;
+        margin-left: 562px;
+        text-align: center;
+    }
+
+    .main .endingCancerSection {
+        margin-bottom: 43px;
+    }
+
+    .footer {
+        height: 100%;
+        padding: 27px 26.5px 40px 25px;
+    }
+
+    .footer .mainPart {
+        display: flex;
+        flex-direction: column;
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .footer .mainPart .secondPart .aboutEverYou a,
+    .footer .mainPart .thirdPart .customerCare a,
+    .footer .mainPart .fourthPart .resources a {
+        font-size: 24px;
+    }
+
+    .footer .mainPart .secondPart .aboutEverYou {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 320.683px;
+        border-bottom: 1px solid #716C91;
+        padding-bottom: 6.5px;
+    }
+
+    .footer .mainPart .thirdPart .customerCare {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 323.5px;
+        border-bottom: 1px solid #716C91;
+        padding-bottom: 6.5px;
+    }
+
+    .footer .mainPart .fourthPart .resources {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 323.5px;
+        border-bottom: 1px solid #716C91;
+        padding-bottom: 6.5px;
+    }
+
+    .footer .mainPart .secondPart .aboutEverYou span {
+        width: 20.68px;
+        height: 20.68px;
+        flex-shrink: 0;
+    }
+
+    .footer .mainPart .thirdPart .customerCare span {
+        width: 20.68px;
+        height: 20.68px;
+        flex-shrink: 0;
+    }
+
+    .footer .mainPart .fourthPart .resources span {
+        width: 20.68px;
+        height: 20.68px;
+        flex-shrink: 0;
+    }
+
+    .footer .contact .contactIcons {
+        display: flex;
+        gap: 12px;
+        margin-top: 15.5px;
+    }
+
+    .footer .mainPart .firstPart {
+        margin-top: 59px;
+    }
+
+    .footer .firstPart .logo {
+        width: 308px;
+        height: 49.687px;
+        flex-shrink: 0;
+    }
+
+    .footer .firstPart .logo img {
+        width: 100%;
+    }
+
+    .footer .firstPart .explainEverYou {
+        width: 316px !important;
+        font-size: 13px !important;
+    }
+
+    .main .hairStorySection,
+    .main .hereForYouSection {
+        margin-top: 35px;
+    }
+
+    .main .topFavouritesSection {
+        padding-bottom: 0px;
+    }
+
+    .main .findFitSection {
+        padding: 100px 0 0 0;
+    }
+
+    .main .eatHealthyGetActiveSection>p {
+        margin-top: 0px;
+    }
+
+    .main .shopCatalogSection {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 29PX;
+    }
+
+    .main .loremSection {
+        margin-bottom: 24PX;
+    }
+
+    .main .hairStorySection .introField .title,
+    .main .findFitSection .introField .title,
+    .main .hereForYouSection .introField .title {
+        display: flex;
+        justify-content: unset;
+    }
+
+    .main .eatHealthyGetActiveSection>p {
+        text-align: unset;
+    }
+
+    .main .mainSliderSection .slideshow-container .smallLetter {
+        display: none;
+    }
+
+    .main .mainSliderSection .introField .introBtns {
+        display: none;
+    }
+
+
+    .main .mainSliderSection .introField .introBtns button,
+    .main .mainSliderSection .slideshow-container .introBtns button {
+
+        border: 1px solid #FFF;
+        background-color: #64404000;
+        color: #ffffff;
+    }
+
+}
+
+/* 
+
+.responsiveGuideLink {
+    display: none;
+} */
